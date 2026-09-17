@@ -1,13 +1,13 @@
 <!-- ENTIRE PAGE -->
-<div class="font-hal w-full text-base leading-tight">
+<div class="font-hal w-full text-lg leading-tight md:text-base">
   <!-- TOP NAV -->
   <div class="z fixed top-0 flex w-full flex-row justify-between px-4 py-4">
     <div>
       <a
         href="/"
-        class="underline decoration-transparent hover:decoration-black"
+        class="block underline decoration-transparent hover:decoration-black md:inline"
         >Mark Armijo McKnight</a
-      >,
+      ><span class="hidden md:inline">,</span>
       <a href="/" class="underline">Selected Projects</a>,
       <a
         href="/"
@@ -29,9 +29,9 @@
   <!-- WORK LIST -->
   <div class="flex w-full flex-col gap-24 px-4 pt-48 pb-24">
     <!-- SINGLE ROW -->
-    <div class="grid w-full grid-cols-12 gap-4">
+    <div class="flex w-full flex-col gap-24 md:grid md:grid-cols-12 md:gap-4">
       <!-- Work 1 -->
-      <a href="/" class="group col-span-3 col-start-1 text-white">
+      <a href="/" class="group col-span-3 col-start-1 pr-18 text-white md:pr-0">
         <img
           class="w-full"
           src="src/lib/assets/images/1.jpg"
@@ -44,7 +44,10 @@
         </div>
       </a>
       <!-- Work 2 -->
-      <a href="/" class="group col-span-8 col-start-5 mt-36 text-white">
+      <a
+        href="/"
+        class="group col-span-8 col-start-5 pl-18 text-white md:mt-36 md:pl-0"
+      >
         <video
           autoplay
           muted
