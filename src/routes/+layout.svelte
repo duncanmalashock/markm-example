@@ -1,5 +1,5 @@
 <script lang="ts">
-  import favicon from "$lib/assets/favicon.svg";
+  import favicon from "$lib/assets/favicon.png";
 
   let { children } = $props();
   import "../app.css";
@@ -7,6 +7,7 @@
 
 <svelte:head>
   <link rel="icon" href={favicon} />
+  <title>Mark Armijo McKnight</title>
 </svelte:head>
 
 {@render children()}
