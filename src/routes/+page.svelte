@@ -5,9 +5,9 @@
     <div>
       <a
         href="/"
-        class="block underline decoration-transparent hover:decoration-black md:inline"
+        class="block underline decoration-transparent hover:decoration-black sm:inline"
         >Mark Armijo McKnight</a
-      ><span class="hidden md:inline">,</span>
+      ><span class="hidden sm:inline">,</span>
       <a href="/" class="underline">Selected Projects</a>,
       <a
         href="/"
@@ -27,7 +27,7 @@
     </div>
   </div>
   <!-- WORK LIST -->
-  <div class="flex w-full flex-col gap-24 px-4 pt-48 pb-24">
+  <div class="flex w-full flex-col gap-24 px-4 pt-30 pb-24 md:pt-48">
     <!-- SINGLE ROW -->
     <div class="flex w-full flex-col gap-24 md:grid md:grid-cols-12 md:gap-4">
       <!-- Work 1 -->
@@ -38,7 +38,7 @@
           alt="Cut The World"
         />
         <div
-          class="mt-5 w-full text-center text-black opacity-0 transition-opacity duration-150 group-hover:opacity-100"
+          class="mt-5 w-full text-center text-black transition-opacity duration-150 group-hover:opacity-100 sm:opacity-0"
         >
           Cut The World, 2026
         </div>
@@ -65,7 +65,7 @@
           />
         </video>
         <div
-          class="mt-5 w-full text-center text-black opacity-0 transition-opacity duration-150 group-hover:opacity-100"
+          class="mt-5 w-full text-center text-black transition-opacity duration-150 group-hover:opacity-100 sm:opacity-0"
         >
           Decreation (Whitney Museum of American Art), 2025
         </div>
