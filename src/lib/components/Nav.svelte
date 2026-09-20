@@ -15,11 +15,6 @@
       url: "/news",
     },
   ];
-
-  console.log(page.url.pathname);
-  console.log(links[0].url);
-
-  console.log(page.url.pathname === links[0].url);
 </script>
 
 <!-- TOP NAV -->
