@@ -33,7 +33,7 @@
       <div
         class="mt-5 w-full text-center text-black transition-opacity duration-150 group-hover:opacity-100 sm:opacity-0"
       >
-        {p.name}, {p.year}
+        {p.name}, {p.year}{p.endYear ? `–${p.endYear}` : ""}
       </div>
     </a>
   {/each}
