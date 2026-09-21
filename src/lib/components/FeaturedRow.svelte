@@ -8,7 +8,7 @@
   {#each row as p}
     <a
       href="/project/{p.slug}"
-      class={`group col-span-${p.colSpan} col-start-${p.colStart} pr-18 text-white md:pr-0 ${p.order % 2 === 0 ? "md:mt-36" : ""}`}
+      class={`group col-span-${p.colSpan} col-start-${p.colStart} ${p.order % 2 ? "pr-18" : "pl-18"} text-white md:pr-0 md:pl-0 ${p.order % 2 === 0 && row.length != 1 ? "md:mt-36" : ""}`}
     >
       {#if p.featuredVideo}
         <video
