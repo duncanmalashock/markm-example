@@ -3,9 +3,9 @@ export type Project = {
     name: string;
     slug: string;
     year: number;
-    endYear?: number;
+    startYear?: number;
     featuredImage?: string;
     featuredVideo?: string;
     colSpan: number;
-    colStart: number;
+    colStart?: number;
 }
