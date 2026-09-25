@@ -1,5 +1,6 @@
 <script lang="ts">
   import favicon from "$lib/assets/favicon.png";
+  import AboutPane from "$lib/components/AboutPane.svelte";
   import Nav from "$lib/components/Nav.svelte";
 
   let { children } = $props();
@@ -14,5 +15,6 @@
 <!-- ENTIRE PAGE -->
 <div class="font-hal w-full text-lg leading-tight md:text-base">
   <Nav></Nav>
+  <AboutPane></AboutPane>
   {@render children()}
 </div>

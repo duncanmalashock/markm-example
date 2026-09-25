@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from "$app/state";
+  import { menuState } from "$lib/menuState.svelte.js";
 
   let links = [
     {
@@ -36,8 +37,13 @@
     {/each}
   </div>
   <div>
-    <a href="/" class="underline decoration-transparent hover:decoration-black"
-      >About</a
+    <a
+      href="/"
+      class="underline decoration-transparent hover:decoration-black"
+      onclick={(e) => {
+        e.preventDefault();
+        menuState.toggle();
+      }}>About</a
     >
   </div>
 </div>
